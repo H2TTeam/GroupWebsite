@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.info{
+    background-color: white;
+    width: 1170px;
+    height: 500px;
+    position: relative;
+    top: 60px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.info #avatar{
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+}
+
+.info .info-text{
+    float: left;
+    width: 300px
+}
+.info .info-text li{
+    display: block;
+}
