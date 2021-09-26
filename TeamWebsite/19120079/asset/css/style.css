@@ -1,8 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -44,12 +42,13 @@ body{
     height: 100%;
     border-radius: 10px;
     float: left;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .info .info-text{
     float: left;
-    width: 315px
+    padding-top: 16px;
+    width: 365px
 }
 
 .info .info-text h6{
@@ -68,7 +67,8 @@ body{
 
 .info .info-text h4{
     text-transform: uppercase;
-    margin-bottom: 10px;
+    font-weight: 1;
+    margin-bottom: 20px;
 }
 
 .info .info-text p{
@@ -86,7 +86,7 @@ body{
 
 .info .info-text li{
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .info .info-text ul a{
