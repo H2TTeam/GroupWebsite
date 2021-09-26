@@ -21,7 +21,12 @@ body{
 }
 
 .return:hover{
-    box-shadow: 0 0 5px   rgba(0, 0, 0, 0.3)
+    box-shadow: 0 0 5px   rgba(0, 0, 0, 0.3);
+}
+.content {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .info{
     background-color: white;
@@ -29,9 +34,10 @@ body{
     height: 500px;
     position: relative;
     border-radius: 12px;
-    margin: 50px auto;
+    margin: 0 auto;
     padding: 30px;
-    box-shadow: 0 0 20px   rgba(0, 0, 0, 0.5)
+    box-sizing: border-box;
+    box-shadow: 0 0 20px   rgba(0, 0, 0, 0.5);
 }
 
 .info #avatar{
