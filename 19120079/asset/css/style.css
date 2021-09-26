@@ -25,48 +25,51 @@ body{
 }
 .info{
     background-color: white;
-    width: 1170px;
-    height: 700px;
+    width: 960px;
+    height: 500px;
     position: relative;
     border-radius: 12px;
-    margin: 60px auto;
+    margin: 50px auto;
     padding: 30px;
+    box-shadow: 0 0 20px   rgba(0, 0, 0, 0.5)
 }
 
 .info #avatar{
     height: 100%;
     border-radius: 10px;
     float: left;
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 .info .info-text{
     float: left;
-    width: 300px
+    width: 315px
 }
 
 .info .info-text h6{
-    font-size: 16px;
-    margin-bottom: 12px;
+    font-size: 18px;
+    margin-bottom: -4px;
     letter-spacing: 3px;
+    font-weight: 1;
 }
 
 .info .info-text h2{
     font-size: 40px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     letter-spacing: 5px;
 }
 
 .info .info-text h4{
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .info .info-text p{
     line-height: 24px;
-    margin-bottom: 24px;
     color: #777;
+    text-align: justify;
+    margin-bottom: 24px;
 }
 
 .info .info-text ul i{
@@ -77,7 +80,7 @@ body{
 
 .info .info-text li{
     display: block;
-    padding: 8px;
+    margin-bottom: 16px;
 }
 
 .info .info-text ul a{
@@ -86,15 +89,15 @@ body{
 }
 
 .info .info-text .social{
-    margin-top: 45px;
+    margin-top: 32px;
 }
 
 .info .info-text .social i{
-    padding: 18px;
+    padding: 16px;
     background: #E8E8E8;
     border-radius: 12px;
     margin: 0 12px;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .info .info-text .social i:hover{
