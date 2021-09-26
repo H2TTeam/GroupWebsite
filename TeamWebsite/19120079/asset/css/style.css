@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.return{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 32px;
+    color: black;
+    padding: 12px;
+}
+
+.return:hover{
+    box-shadow: 0 0 5px   rgba(0, 0, 0, 0.3);
+}
+.content {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.info{
+    background-color: white;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px   rgba(0, 0, 0, 0.5);
+}
+
+.info #avatar{
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 120px;
+}
+
+.info .info-text{
+    float: left;
+    width: 315px
+}
+
+.info .info-text h6{
+    font-size: 18px;
+    margin-bottom: -4px;
+    letter-spacing: 3px;
+    font-weight: 1;
+}
+
+.info .info-text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 5px;
+}
+
+.info .info-text h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.info .info-text p{
+    line-height: 24px;
+    color: #777;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.info .info-text ul i{
+    margin-right: 24px;
+    font-size: 20px;
+    color: #766dff;
+}
+
+.info .info-text li{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.info .info-text ul a{
+    text-decoration: none;
+    color: #777;
+}
+
+.info .info-text .social{
+    margin-top: 32px;
+}
+
+.info .info-text .social i{
+    padding: 16px;
+    background: #E8E8E8;
+    border-radius: 12px;
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+.info .info-text .social i:hover{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+.info .info-text .social a{
+    color: white;
+    text-decoration: none;
+}
+
