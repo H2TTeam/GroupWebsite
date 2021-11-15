@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="products-section">
+            <div class="main-section">
                 <div class="container">
                     <div class="card">
                         <div class="table-responsive">
@@ -114,11 +114,9 @@
                                         <select name="#"
                                                 class="form-control form-select">
                                             <option value="-1">All</option>
-                                            <option value="1">Hats</option>
-                                            <option value="2">Coats</option>
-                                            <option value="3">Jeans</option>
-                                            <option value="4">T-Shirt</option>
-                                            <option value="5">Other</option>
+                                            <option value="delivered">Delivered</option>
+                                            <option value="delivering">Delivering</option>
+                                            <option value="cancel">Cancel</option>
                                         </select>
                                     </div>
                                     <div class="col-md-8">
@@ -136,7 +134,7 @@
                             <table class="table mb-0 table-striped">
                                 <thead>
                                     <tr>
-                                        <th style="width: 18px;">
+                                        <th style="width: 18px;" class="text-center">
                                             <div class="custom-control custom-checkbox">
                                                 <input type="checkbox" class="custom-control-input js-toggle-check-all" data-target="#products" id="customCheckAll">
                                                 <label class="custom-control-label" for="customCheckAll">
@@ -144,17 +142,16 @@
                                                 </label>
                                             </div>
                                         </th>
-                                        <th style="width: 30px;"
-                                            class="text-center">#ID</th>
-                                        <th>Customer ID</th>
-                                        <th class="text-center">Total</th>
-                                        <th class="">Address</th>
-                                        <th class="text-end">Created At</th>
-                                        <th class="text-end">Status</th>
+                                        <th style="width: 30px;">#ID</th>
+                                        <th>Customer Name</th>
+                                        <th class="text-center" style="width: 120px;">Total</th>
+                                        <th>Address</th>
+                                        <th style="width: 120px;">Created At</th>
+                                        <th style="width: 60px;" class="text-center">Status</th>
                                     </tr>
                                 </thead>
                                 <tbody class="list"
-                                    id="products">
+                                    id="orders">
 
                                     <tr>
                                         <td class="text-center">
@@ -170,24 +167,22 @@
                                             <div class="badge bg-lightblue">#101</div>
                                         </td>
                                         <td>
-                                            <img src="assets/images/avatars/clem-onojeghuo-192088.jpg"
+                                            <img src="images/clem-onojeghuo-192088.jpg"
                                                 alt="product"
                                                 style="width:35px"
                                                 class="rounded mr-2">
-                                            <a href="#">Bleu Snow Coat</a>
+                                            <a href="invoice.html">Nguyen Gia Huy</a>
                                         </td>
-                                        <td style="width: 120px;"
-                                            class="text-center">
-                                            4 items</td>
-                                        <td style="width:200px">
-
-                                            <a href="#">Coats</a>
-
+                                        <td class="text-center">
+                                            &dollar;2,500</td>
+                                        <td>
+                                            <a href="#">1 Dien Bien Phu, Binh Thanh</a>
                                         </td>
 
-                                        <td class="text-end">$22</td>
-                                        <td class="text-end"><a href="#"
-                                            class="btn btn-sm btn-primary">EDIT</td>
+                                        <td>01/01/2021</td>
+                                        <td class="text-center">
+                                            <a href="#" class="btn btn-sm btn-success">Delivered</a>
+                                        </td>
                                     </tr>
 
                                     <tr>
@@ -204,24 +199,22 @@
                                             <div class="badge bg-lightblue">#102</div>
                                         </td>
                                         <td>
-                                            <img src="assets/images/avatars/lobostudio-hamburg-64728.jpg"
+                                            <img src="images/lobostudio-hamburg-64728.jpg"
                                                 alt="product"
                                                 style="width:35px"
                                                 class="rounded mr-2">
-                                            <a href="#">Navy Hat with Stripes</a>
+                                            <a href="invoice.html">Nguyen Viet Minh Tam</a>
                                         </td>
-                                        <td style="width: 120px;"
-                                            class="text-center">
-                                            10 items</td>
-                                        <td style="width:200px">
-
-                                            <a href="#">Hats</a>
-
+                                        <td class="text-center">
+                                            &dollar;3,400</td>
+                                        <td>
+                                            <a href="#">1 Pham Ngu Lao, Go Vap</a>
                                         </td>
 
-                                        <td class="text-end">$54</td>
-                                        <td class="text-end"><a href="#"
-                                            class="btn btn-sm btn-primary">EDIT</td>
+                                        <td>01/01/2021</td>
+                                        <td class="text-center">
+                                            <a href="#" class="btn btn-sm btn-success">Delivered</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">
@@ -237,24 +230,21 @@
                                             <div class="badge bg-lightblue">#101</div>
                                         </td>
                                         <td>
-                                            <img src="assets/images/avatars/clem-onojeghuo-192088.jpg"
+                                            <img src="images/clem-onojeghuo-192088.jpg"
                                                 alt="product"
                                                 style="width:35px"
                                                 class="rounded mr-2">
-                                            <a href="#">Bleu Snow Coat</a>
+                                            <a href="invoice.html">Doan The Huy</a>
                                         </td>
-                                        <td style="width: 120px;"
-                                            class="text-center">
-                                            4 items</td>
-                                        <td style="width:200px">
-
-                                            <a href="#">Coats</a>
-
+                                        <td class="text-center">
+                                            &dollar;2,000</td>
+                                        <td>
+                                            <a href="#">1 Pham Ngu Lao, Go Vap</a>
                                         </td>
 
-                                        <td class="text-end">$22</td>
-                                        <td class="text-end"><a href="#"
-                                            class="btn btn-sm btn-primary">EDIT</td>
+                                        <td>01/01/2021</td>
+                                        <td class="text-center"><a href="#"
+                                            class="btn btn-sm btn-warning">Delivering</a></td>
                                     </tr>
 
                                     <tr>
@@ -271,24 +261,21 @@
                                             <div class="badge bg-lightblue">#102</div>
                                         </td>
                                         <td>
-                                            <img src="assets/images/avatars/lobostudio-hamburg-64728.jpg"
+                                            <img src="images/lobostudio-hamburg-64728.jpg"
                                                 alt="product"
                                                 style="width:35px"
                                                 class="rounded mr-2">
-                                            <a href="#">Navy Hat with Stripes</a>
+                                            <a href="invoice.html">Tran Manh Duc</a>
                                         </td>
-                                        <td style="width: 120px;"
-                                            class="text-center">
-                                            10 items</td>
-                                        <td style="width:200px">
-
-                                            <a href="#">Hats</a>
-
+                                        <td class="text-center">
+                                            &dollar;1,800</td>
+                                        <td>
+                                            <a href="#">Ba Dinh, Ha Noi</a>
                                         </td>
 
-                                        <td class="text-end">$54</td>
-                                        <td class="text-end"><a href="#"
-                                            class="btn btn-sm btn-primary">EDIT</td>
+                                        <td>01/01/2021</td>
+                                        <td class="text-center"><a href="#"
+                                            class="btn btn-sm btn-danger">Cancel</td>
                                     </tr>
                                 </tbody>
                             </table>

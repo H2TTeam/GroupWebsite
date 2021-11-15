@@ -10,7 +10,6 @@
     --mint: #FAFBFE;
     --lightblue: rgba(28, 34, 96, 0.1);
 }
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -24,6 +23,9 @@ a:hover {
 }
 h1 {
     color: var(--darkgrey);
+}
+.table {
+    --bs-table-striped-bg:var(--mint);
 }
 .btn {
     font-weight: 600;
@@ -112,7 +114,7 @@ h1 {
     box-shadow: 0 1px 2px 0 rgb(0, 0, 0, 5%);
     margin-bottom: 30px;
 }
-.table thead th {
+.table thead th, table thead a {
     font-size: 0.825rem;
     color: rgba(55, 77, 103, 0.54);
 }
@@ -133,13 +135,8 @@ h1 {
     z-index: 1;
     display: block;
     min-height: 1.40625rem;
-}
-
-.custom-control {
-    padding-left: 1.5rem;
-}
-.custom-control {
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .custom-control-inline {
     display: inline-flex;
@@ -263,4 +260,22 @@ h1 {
     background-color: transparent;
     border: 0;
 }
-.badge {}
+.text-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: rgba(147, 159, 173, 0.84);
+    line-height: 0.9375rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.main-section .search-form, .main-section .form-control {
+    background-color: var(--mint);
+    border: 1px solid #DBE5EE;
+    border-radius: 0.25rem;
+}
+.main-section .search-form .form-control {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
